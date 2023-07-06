@@ -27,6 +27,15 @@
 		B41D5A0E2A53C7E2009C792F /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41D5A0B2A53C7E2009C792F /* ServiceLayer.swift */; };
 		B41D5A0F2A53C7E2009C792F /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41D5A0C2A53C7E2009C792F /* RequestModel.swift */; };
 		B41D5A122A53C888009C792F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41D5A112A53C888009C792F /* Constants.swift */; };
+		B4545A1E2A5614B700C86A6C /* HomeProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4545A1D2A5614B700C86A6C /* HomeProviderMock.swift */; };
+		B4545A212A56150C00C86A6C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4545A202A56150C00C86A6C /* Utils.swift */; };
+		B4545A282A56183A00C86A6C /* VideoOnlyOne.json in Resources */ = {isa = PBXBuildFile; fileRef = B4545A222A56183A00C86A6C /* VideoOnlyOne.json */; };
+		B4545A292A56183A00C86A6C /* Channel.json in Resources */ = {isa = PBXBuildFile; fileRef = B4545A232A56183A00C86A6C /* Channel.json */; };
+		B4545A2A2A56183A00C86A6C /* SearchVideos.json in Resources */ = {isa = PBXBuildFile; fileRef = B4545A242A56183A00C86A6C /* SearchVideos.json */; };
+		B4545A2B2A56183A00C86A6C /* Playlists.json in Resources */ = {isa = PBXBuildFile; fileRef = B4545A252A56183A00C86A6C /* Playlists.json */; };
+		B4545A2C2A56183A00C86A6C /* PlaylistItems.json in Resources */ = {isa = PBXBuildFile; fileRef = B4545A262A56183A00C86A6C /* PlaylistItems.json */; };
+		B4545A2D2A56183A00C86A6C /* VideoList.json in Resources */ = {isa = PBXBuildFile; fileRef = B4545A272A56183A00C86A6C /* VideoList.json */; };
+		B4545A2F2A56552600C86A6C /* MockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4545A2E2A56552600C86A6C /* MockManager.swift */; };
 		B4908E462A53CC72007A06A3 /* HomeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4908E452A53CC72007A06A3 /* HomeProvider.swift */; };
 		B4908E482A53CEDA007A06A3 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4908E472A53CEDA007A06A3 /* HomePresenter.swift */; };
 		B4BBF7AE2A3AAFBA00F797F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BBF7AD2A3AAFBA00F797F6 /* AppDelegate.swift */; };
@@ -58,6 +67,15 @@
 		B41D5A0B2A53C7E2009C792F /* ServiceLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
 		B41D5A0C2A53C7E2009C792F /* RequestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
 		B41D5A112A53C888009C792F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../../../../../Downloads/Constants.swift; sourceTree = "<group>"; };
+		B4545A1D2A5614B700C86A6C /* HomeProviderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProviderMock.swift; sourceTree = "<group>"; };
+		B4545A202A56150C00C86A6C /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B4545A222A56183A00C86A6C /* VideoOnlyOne.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = VideoOnlyOne.json; sourceTree = "<group>"; };
+		B4545A232A56183A00C86A6C /* Channel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Channel.json; sourceTree = "<group>"; };
+		B4545A242A56183A00C86A6C /* SearchVideos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SearchVideos.json; sourceTree = "<group>"; };
+		B4545A252A56183A00C86A6C /* Playlists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Playlists.json; sourceTree = "<group>"; };
+		B4545A262A56183A00C86A6C /* PlaylistItems.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PlaylistItems.json; sourceTree = "<group>"; };
+		B4545A272A56183A00C86A6C /* VideoList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = VideoList.json; sourceTree = "<group>"; };
+		B4545A2E2A56552600C86A6C /* MockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockManager.swift; sourceTree = "<group>"; };
 		B4908E452A53CC72007A06A3 /* HomeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProvider.swift; sourceTree = "<group>"; };
 		B4908E472A53CEDA007A06A3 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		B4BBF7AA2A3AAFBA00F797F6 /* YoutubeClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubeClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,9 +167,25 @@
 		B41D5A102A53C875009C792F /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				B4545A1F2A5614F700C86A6C /* Mock */,
 				B41D5A112A53C888009C792F /* Constants.swift */,
+				B4545A202A56150C00C86A6C /* Utils.swift */,
+				B4545A2E2A56552600C86A6C /* MockManager.swift */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		B4545A1F2A5614F700C86A6C /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				B4545A232A56183A00C86A6C /* Channel.json */,
+				B4545A262A56183A00C86A6C /* PlaylistItems.json */,
+				B4545A252A56183A00C86A6C /* Playlists.json */,
+				B4545A242A56183A00C86A6C /* SearchVideos.json */,
+				B4545A272A56183A00C86A6C /* VideoList.json */,
+				B4545A222A56183A00C86A6C /* VideoOnlyOne.json */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 		B4908E412A53CC43007A06A3 /* Model */ = {
@@ -183,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				B4908E452A53CC72007A06A3 /* HomeProvider.swift */,
+				B4545A1D2A5614B700C86A6C /* HomeProviderMock.swift */,
 			);
 			path = Provider;
 			sourceTree = "<group>";
@@ -298,7 +333,13 @@
 				B41D59EC2A5397DC009C792F /* PlaylistViewController.xib in Resources */,
 				B4BBF7BA2A3AAFBB00F797F6 /* LaunchScreen.storyboard in Resources */,
 				B41D59F42A539803009C792F /* AboutViewController.xib in Resources */,
+				B4545A2D2A56183A00C86A6C /* VideoList.json in Resources */,
+				B4545A2C2A56183A00C86A6C /* PlaylistItems.json in Resources */,
+				B4545A2B2A56183A00C86A6C /* Playlists.json in Resources */,
+				B4545A2A2A56183A00C86A6C /* SearchVideos.json in Resources */,
+				B4545A282A56183A00C86A6C /* VideoOnlyOne.json in Resources */,
 				B4BBF7B72A3AAFBB00F797F6 /* Assets.xcassets in Resources */,
+				B4545A292A56183A00C86A6C /* Channel.json in Resources */,
 				B41D59E82A5397CB009C792F /* VideosViewController.xib in Resources */,
 				B4BBF7B52A3AAFBA00F797F6 /* Main.storyboard in Resources */,
 				B41D59E42A53979D009C792F /* HomeViewController.xib in Resources */,
@@ -319,9 +360,12 @@
 				B4908E482A53CEDA007A06A3 /* HomePresenter.swift in Sources */,
 				B41D59DB2A5393F1009C792F /* MainViewController.swift in Sources */,
 				B41D59EF2A5397F7009C792F /* ChannelViewController.swift in Sources */,
+				B4545A1E2A5614B700C86A6C /* HomeProviderMock.swift in Sources */,
+				B4545A212A56150C00C86A6C /* Utils.swift in Sources */,
 				B4BBF7AE2A3AAFBA00F797F6 /* AppDelegate.swift in Sources */,
 				B41D5A0F2A53C7E2009C792F /* RequestModel.swift in Sources */,
 				B41D5A032A53C45A009C792F /* PlaylistItemsModel.swift in Sources */,
+				B4545A2F2A56552600C86A6C /* MockManager.swift in Sources */,
 				B41D59EB2A5397DC009C792F /* PlaylistViewController.swift in Sources */,
 				B41D5A042A53C45A009C792F /* ChannelModel.swift in Sources */,
 				B41D5A0D2A53C7E2009C792F /* NetworkError.swift in Sources */,
